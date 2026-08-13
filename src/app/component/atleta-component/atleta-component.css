@@ -50,10 +50,12 @@ input[type=radio]{
 }
 
 button{
-    width: 180px;
+    width: 200px;
     height: 40px;
     cursor: pointer;
     border: none;
+    color: var(--branca);
+    font-size: 20px;
 }
 
 #btnAdd{

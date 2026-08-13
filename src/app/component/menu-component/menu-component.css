@@ -1,9 +1,12 @@
-#cabecalho, #ul-menu, #logo{
+#cabecalho, 
+#ul-menu, 
+#logo{
     display: flex;
     align-items: center;
 }
 
-#ul-menu, #logo{
+#ul-menu,
+#logo {
     height: 100%;
 }
 
