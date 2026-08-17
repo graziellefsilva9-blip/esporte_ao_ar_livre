@@ -53,14 +53,17 @@ export class AtletaComponent {
      atleta.cidade = this.cidade
      atleta.uf  = this.uf
      
-     this.atletaService.adicionarAtleta(atleta)
-     
-     this.limparDados()   
- 
-     this.atletaService.listarAtletas()
-     
-   }
- 
- 
- }
+     this.atletaService.salvarAtleta(atleta).subscribe({
+      next: (resultado) => {
+        console.log('Atleta cadastrado com sucesso!', resultado);
+        alert('Atleta cadastrado com sucesso!');
+        this.limparDados();
+      },
 
+      error: (erro) => {
+        console.error('Erro ao cadastrar atleta:', erro);
+        alert('Erro ao cadastrar atleta.');
+      }
+    });
+  }
+}
