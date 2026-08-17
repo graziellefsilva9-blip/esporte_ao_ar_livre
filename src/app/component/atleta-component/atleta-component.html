@@ -34,6 +34,9 @@
         <input type="text" name="cidade"
         maxlength="60" required placeholder="Digite a cidade">
 
+        <label for="uf">UF*</label>
+        <input type="text" name="uf" [(ngModel)] = "uf" id="uf" class="input02" maxlength="60" required placeholder="Digite a UF ">
+
        <div id="div-btns">
        <button type="submit" id="btn-cadastrar">Cadastrar</button>
       <button type="reset" id="btn-limpar">Limpar</button>
