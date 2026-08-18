@@ -1,4 +1,5 @@
 export class Atleta {
+    id: string = '';
     nome: string = '';
     cpf: number = 0;
     sexo: string = '';
