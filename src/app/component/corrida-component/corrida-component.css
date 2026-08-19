@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    min-height: calc(100vh - 113px);
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  h2 {
+    margin: 0;
+    color: #2f3b4c;
+    font-size: 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 10px 0 20px;
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .campo > label {
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #56606c;
+  }
+  
+  textarea,
+  input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #cfd5dc;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  textarea {
+    height: 55px;
+    resize: vertical;
+  }
+  
+  .distancias {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: #56606c;
+  }
+  
+  button {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f5fbd;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
